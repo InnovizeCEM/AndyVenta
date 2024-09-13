@@ -102,3 +102,34 @@ h1 {
     min-width: 150px;
     max-width: 300px;
 }
+/* Estilo para el título de Contacto */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para la lista de enlaces sociales */
+.social-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007bff; /* Color del enlace, puedes cambiarlo */
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0056b3; /* Color del enlace al pasar el mouse */
+    text-decoration: underline;
+}
